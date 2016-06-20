@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width = device-width, initial-scale = 1">
+      <title>Bootstrap Tutorial</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link rel="stylesheet" href="css/jquery.bxslider.css" rel="stylesheet" />
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+     
+         <div class="container-fluid">
+            <img src="img/logo.png" id="logo">
+         </div>
+      <nav  id="navmenu">
+         <div class="container-fluid">
+            <ul class="nav nav-pills nav-justified" >
+               <li ><a href="#">Participants</a></li>
+               <li ><a href="#">About</a></li>
+               <li ><a href="#">Exabition</a></li>
+               <li ><a href="#">Media</a></li>
+               <li ><a href="#">Travel</a></li>
+               <li><a href="#">GuidelinesS</a></li>
+               <li><a href="#">Sponsership</a></li>
+               <li><a href="#">Visitors</a></li>
+            </ul>
+         </div>
+      </nav>
+      <br />
+      <div class="container" id="mainslider">
+         <div class="row">
+            <div class="col-md-9">
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                     <div class="item active">
+                        <img src="img\sl1.jpg" alt="Chania">
+                     </div>
+                     <div class="item">
+                        <img src="img\sl2.jpg" alt="Chanjia">
+                     </div>
+                     <div class="item">
+                        <img src="img\sl3.jpg" alt="Chanjia">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3" id="adminpanel">
+               <h4> Weolcome to RTpanel </h4>
+               <p><img src="img\admin.jpg" class="img-thumbnail" id="adminlogo" /> Maecenas scelerisque  efficitur gravida.  Vivamus a egestas nibh,  eu mollis ante.  Duis scelerisque commodo enim ut congue. Praesent et sodales quam, et vestibulum risus. Proin elit nisl, iaculis sed magna quis, posuere imperdiet nibh. Curabitur lacinia posuere nisl, non lacinia eros volutpat quis. Integer in libero libero. Morbi tincidunt dictum sodales. Sed sed orci augue. Praesent porttitor orci justo, id ornare augue tempus in. Aliquam vestibulum dolor consectetur, efficitur magna ut, pretium nulla. Quisque eget semper velit.</p>
+            </div>
+         </div>
+      </div>
+      <br />
+      
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 " id="content">
+               <h4>Glimpses Of Exabition </h4>
+               <div class="row">
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                     <img src="img\g1.jpg" class="img-thumbnail">
+                     <p><strong>Golf</strong></p>
+                     <img src="img\h1.jpg" class="img-thumbnail">
+                     <p><strong>hocky</strong></p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                     <img src="img\c1.jpg" class="img-thumbnail">
+                     <p><strong>cricket</strong></p>
+                     <img src="img\bs11.jpg" class="img-thumbnail">
+                     <p><strong>Basketball</strong></p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                     <img src="img\t11.jpg" class="img-thumbnail">
+                     <p><strong>tennis</strong></p>
+                     <img src="img\f11.jpg" class="img-thumbnail">
+                     <p><strong>football</strong></p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                     <img src="img\h11.jpg" class="img-thumbnail">
+                     <p><strong>hocky</strong></p>
+                     <img src="img\g8.jpg" class="img-thumbnail">
+                     <p><strong>Basketball</strong></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4" id="sidenews">
+               <h4>News</h4>
+               <p><img src="img\newslogo.jpg" class="img-thumbnail" >this is exabaition will organised to be product forum <br />November 4, 2012 </p>
+               <br>
+               <ul>
+                  <li><a href="#">Cras justo odio</li>
+                  </a>
+                  <li><a href="#">spanDapibus ac facilisis in</li>
+                  </a>
+                  <li><a href="#">Morbi leo risus</li>
+                  </a>
+                  <li><a href="#">Porta ac consectetur ac</li>
+                  </a>
+                  <li><a href="#">Vestibulum at eros</li>
+                  </a>
+                  <li><a href="#">Porta ac consectetur ac</li>
+                  </a>
+               </ul>
+               <a href="#"><span class="glyphicon glyphicon-chevron-left"> </span> <a href="#"><span class="glyphicon glyphicon-chevron-right"> </span>
+               <a href="#" id="morenews">More News </a>
+            </div>
+         </div>
+      </div>
+      <br />
+      <div class="container" id="imgslider">
+         <h4>Our partners </h4>
+         <ul class="bxsliderimg">
+            <li><img src="img/img1.jpg" /></li>
+            <li><img src="img/img2.jpg" /></li>
+            <li><img src="img/img3.jpg" /></li>
+            <li><img src="img/img4.jpg"></li>
+            <li><img src="img/img5.jpg"></li>
+         </ul>
+      </div>
+      <br />
+      <div class="container" id="followlist">
+         <div class="row">
+            <div class="col-sm-12">
+               <h4> Follow Us </h4>
+               <ul>
+                <ul>
+                  <li> <a href="#"><i data-toggle="tooltip" title="Like" class="fa fa-facebook fa-4x"></i></a></li>
+                  <li> <a href="#"><i data-toggle="tooltip" title="Follow" class="fa fa-twitter fa-4x"></i></a></li>
+                  <li> <a href="#"><i data-toggle="tooltip" title="Connect!" class="fa fa-linkedin fa-4x"></i></a></li>
+                  <li> <a href="#"><i data-toggle="tooltip" title="Join" class="fa fa-github fa-4x"></i></a></li>
+                  <li> <a href="#"><i data-toggle="tooltip" title="Subscribe" class="fa fa-rss fa-4x"></i></a></li>
+                  <ul>
+               <ul>
+            </div>
+         </div>
+      </div>
+      <br />
+      <div id="footermenu">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4">
+                  <h4>Pages</h4>
+                  <ul style="list-style-type:disc">
+                     <li><a href="#">Home</li>
+                     </a>
+                     <li><a href="#">About</li>
+                     </a>
+                     <li><a href="#">Participents</li>
+                     </a>
+                     <li><a href="#">Exabition</li>
+                     </a>
+                     <li><a href="#">Media</li>
+                     </a>
+                  </ul>
+               </div>
+               <div class="col-sm-4" >
+                  <h4>Important links</h4>
+                  <ul style="list-style-type:disc">
+                     <li><a href="#">www.rtcamp.com</a></li>
+                     <li><a href="#">www.rtpanel.com</a></li>
+                     <li><a href="#">www.github.com</a></li>
+                     <li><a href="#">www.wpblogs.com</a></li>
+                     <li><a href="#">www.wpnginx.com</a></li>
+                  </ul>
+               </div>
+               <div class="col-sm-4" id="fside">
+                  <img src="img/logo.png">
+                  <br><br>
+                  <p>Copyrights @ 2012. All rights Reserved</p>
+                  <ul >
+                     <li>Terms of use |</li>
+                     <li>Privacy |</li>
+                     <li>Designed by RTcamp</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="footer">
+         <div class="container" >
+            <p>Disclaimer: Maecenas scelerisque efficitur gravida. Vivamus a egestas nibh, eu mollis ante. Duis scelerisque commodo enim ut congue. Praesent et sodales quam, et vestibulum risus. Proin elit nisl, iaculis sed magna quis, posuere imperdiet nibh. Curabitur lacinia posuere nisl, non lacinia er.</p>
+         </div>
+      </div>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.bxslider.min.js"></script>
+      <script src="js/cstm.js"></script>
+   </body>
+</html>

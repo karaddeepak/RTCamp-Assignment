@@ -1,0 +1,180 @@
+body {
+    font-family: georgia, garamond, serif;
+}
+.nav-pills {
+    margin-top: 2px 0;
+    background-color: #ED872D;
+    padding: 0 60px;
+    font-weight: bold;
+    color: #007AA5;
+}
+#navmenu li {
+    color: black;
+}
+#header {
+    height: 100px;
+    background-color: WhiteSmoke;
+}
+#logo {
+    padding-top: 10px;
+    padding-left: 80px;
+    height: 70px;
+}
+#menu {
+    padding-right: 80px;
+}
+#menu li {
+    font-style: bold;
+}
+#navmenu li {
+    font-style: bold;
+    color: red;
+}
+.carousel-inner {
+    height: 400px;
+    width: 100%;
+}
+#adminlogo {
+    float: left;
+    width: 95px;
+    height: 95px;
+    border-width: 5px;
+    border-style: groove;
+}
+#adminpanel {
+    background-color: WhiteSmoke;
+}
+#adminpanel p {
+    font-size: 15px;
+}
+.carousel-indicators li {
+    background-color: #FDD5B1;
+}
+#sidenews {
+    border-left: 1px solid #FDD5B1;
+}
+#sidenews p {
+    font-size: 16px;
+}
+#sidenews ul {
+    padding-left: 20px;
+    font-size: 16px;
+}
+#sidenews li {
+    color: #007AA5;
+    opacity: 0.7;
+}
+#sidenews img {
+    padding: 3px;
+    height: 80px;
+    width: 90px;
+    float: left;
+    border-width: 5px;
+    border-style: groove;
+}
+#morenews {
+    float: right;
+}
+#sidenews .glyphicon {
+    float: left;
+}
+#footermenu {
+    background-color: #ED872D;
+}
+#footermenu h4 {
+    padding-left: 25px;
+    border-bottom: 1px solid black;
+    color: #007AA5;
+}
+#fside img {
+    position: relative;
+    top: 15px;
+    left: 70px;
+}
+#footer {
+    background-color: #EDC9AF;
+    ;
+}
+#followlist {
+    margin: auto;
+}
+#followlist img {
+    height: 60px;
+    width: 60px;
+}
+#followlist li {
+    display: inline;
+    padding-left: 145px;
+}
+#content h4,
+#imgslider h4,
+#followlist h4,
+#sidenews h4 {
+    background-color: #FDD5B1;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #007AA5;
+}
+#imgslider {
+    border-bottom: 1px solid gray;
+}
+#fside li {
+    display: inline;
+}
+#fside ul {
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+#fside p {
+    position: relative;
+    left: 70px;
+    bottom: 5px;
+}
+#footermenu a {
+    color: black;
+}
+#content strong {
+    color: #007AA5;
+}
+#content img {
+    width: 150px;
+    height: 120px;
+}
+#footermenu {
+    color: black;
+}
+.fa {
+    color: #FF0038;
+}
+.fa-facebook:hover {
+    color: blue;
+}
+.fa-twitter:hover {
+    color: #21ABCD;
+}
+.fa-linkedin:hover {
+    color: #ACE5EE;
+}
+.fa-github:hover {
+    color: #000000;
+}
+.fa-rss:hover {
+    color: #ED9121;
+}
+@media screen and (max-width: 800px) and (min-width: 120px) {
+    #fside img,
+    #fside p,
+    #fside ul {
+        position: relative;
+        left: 20px;
+    }
+    #followlist li {
+        padding-left: 15px;
+    }
+	.carousel-inner {
+    height: 200px;
+    width: 100%;
+    }
+}
